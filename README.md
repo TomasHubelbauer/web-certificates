@@ -17,8 +17,11 @@ Follow the guide in the Gist.
     - Click the **Import…** button
     - Locate the `rootCA.pem` file created during `mkcert -install`
     - Check **Thurst this CA to authenticate web sites**
-4. Generate a certificate for your host name, e.g.: `mkcert localhost`
-5. Configure your web server to use `localhost.pem` and `localhost-key.pem`
+4. Share the CA with any other computers and mobile devices that need it:
+  - Computers: https://github.com/FiloSottile/mkcert#installing-the-ca-on-other-systems
+  - Mobile devices: https://github.com/FiloSottile/mkcert#mobile-devices
+5. Generate a certificate for your host name, e.g.: `mkcert localhost`
+6. Configure your web server to use `localhost.pem` and `localhost-key.pem`
 
 ## To-Do
 
