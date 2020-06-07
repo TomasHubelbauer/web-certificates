@@ -6,7 +6,7 @@ Follow the guide in the Gist.
 
 ## [`mkcert`](https://github.com/FiloSottile/mkcert)
 
-1. Download (`mkcert`)[https://github.com/FiloSottile/mkcert/releases]
+1. Download [`mkcert`](https://github.com/FiloSottile/mkcert/releases)
 2. Rename the binary to `mkcert` and optionally, place it to `%PATH%`
 3. Run `.\mkcert -install` and if on Windows Firefox do either of:
   - Go to `about:config` and set `security.enterprise_roots.enabled`
